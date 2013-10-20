@@ -1,0 +1,27 @@
+[
+{ "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+{ "keys": ["alt+n"], "command": "move", "args": {"by": "characters", "forward": true} },
+{ "keys": ["alt+c"], "command": "move", "args": {"by": "lines", "forward": false} },
+{ "keys": ["alt+t"], "command": "move", "args": {"by": "lines", "forward": true} },
+{ "keys": ["alt+o"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+{ "keys": ["alt+u"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+
+{ "keys": ["alt+."], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+{ "keys": ["alt+e"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+{ "keys": ["alt+a"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+{ "keys": ["alt+i"], "command": "move", "args": {"by": "words", "forward": true, "extend": true} },
+{ "keys": ["alt+d"], "command": "move", "args": {"by": "words", "forward": false, "extend": false} },
+{ "keys": ["alt+s"], "command": "move", "args": {"by": "words", "forward": true, "extend": false} },
+
+{ "keys": ["alt+m"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+{ "keys": ["alt+v"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+
+//open command palette
+{ "keys": ["alt+g"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+{ "keys": ["alt+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+{ "keys": ["alt+]"], "command": "next_view" },
+{ "keys": ["alt+["], "command": "prev_view" }
+
+]
+
